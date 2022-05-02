@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "hello hello!",
+            "message": "amazons3fullaccess removed!",
             # "location": ip.text.replace("\n", "")
         }),
     }
