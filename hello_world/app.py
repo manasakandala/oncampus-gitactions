@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "AWSLambda_FullAccess removed!",
+            "message": "AWSLambda_FullAccess removed, AWSLambda_ReadOnlyAccess added",
             # "location": ip.text.replace("\n", "")
         }),
     }
