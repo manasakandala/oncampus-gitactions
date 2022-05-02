@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": " all 3 required ones",
+            "message": "Hello World!!",
             # "location": ip.text.replace("\n", "")
         }),
     }
