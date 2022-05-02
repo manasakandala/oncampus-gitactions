@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "AWSCloudFormationFullAccess removed!",
+            "message": "AWSLambda_FullAccess removed!",
             # "location": ip.text.replace("\n", "")
         }),
     }
