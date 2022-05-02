@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "AmazonS3OutpostFullAccess, AWSCloudFormationReadOnlyAccess removed!",
+            "message": "AWSLambdaRole, AmazonS3ObjectLambdaExecutionRolePolicy removed!",
             # "location": ip.text.replace("\n", "")
         }),
     }
